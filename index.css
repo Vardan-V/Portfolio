@@ -50,9 +50,20 @@ body {
   border-bottom-color: #fff;
 }
 
-
+/*
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
   }
+*/
+
+@media (max-width: 600px) {
+  main {
+      flex-direction: column;
+  }
+  img {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
